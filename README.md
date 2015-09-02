@@ -1,4 +1,17 @@
-## Installation
+## Information
 
-You only have to clone the repo and use the script you need.
-Some of them requires specific dependecies; to know what do you have to install in order to use a specific script look at the relative documentation page.
+In order to use this scripts you had to have python >= 3.4 installed on your system.
+
+**They COULD function with older version but it isn't garanted**
+
+Then clone the repo, check the eventual dependencies and run the script :)
+
+Have fun!
+
+## List of Contents
+
+### Linux scripts
+* raw2jpg
+
+### Portable scripts
+* None
