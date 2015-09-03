@@ -40,7 +40,7 @@ def raw2jpg(indir, outdir, extension):
 
     try:
         os.makedirs(os.path.expanduser(outdir))
-    except:
+    except FileExistsError:
         pass
 
     try:
