@@ -17,7 +17,6 @@
 #   Free Software Foundation, Inc.,
 #   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-#import std module(s)
 import os, sys
 import subprocess
 import shutil
@@ -37,6 +36,9 @@ _now = time.strftime('%d-%m-%Y')
 _outdir = os.path.join(args.outdir, _now)
 
 def raw2jpg(indir, outdir, extension):
+
+    """Converts raw images files of any extension to jpg images files using imagemagick
+    The created file are stored into the outdir after the all convertion it's completed"""
 
     try:
         os.makedirs(os.path.expanduser(outdir))
